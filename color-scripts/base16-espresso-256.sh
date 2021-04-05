@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Espresso - Gnome Terminal color scheme install script
-# Alex Mirrington (https://github.com/alexmirrington)
+# Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Espresso 256"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-espresso-256"
