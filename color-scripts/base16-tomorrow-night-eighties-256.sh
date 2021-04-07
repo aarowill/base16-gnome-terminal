@@ -2,7 +2,7 @@
 # Base16 Tomorrow Night - Gnome Terminal color scheme install script
 # Chris Kempson (http://chriskempson.com)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Tomorrow Night 256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Tomorrow Night Eighties 256"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-tomorrow-night-eighties-256"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
