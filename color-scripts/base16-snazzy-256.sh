@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Snazzy - Gnome Terminal color scheme install script
-# Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+# Chawye Hsu (https://github.com/chawyehsu) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Snazzy 256"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-snazzy-256"
