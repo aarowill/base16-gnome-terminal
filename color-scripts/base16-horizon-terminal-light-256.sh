@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Base16 Horizon Light - Gnome Terminal color scheme install script
+# Base16 Horizon Terminal Light - Gnome Terminal color scheme install script
 # Michaël Ball (http://github.com/michael-ball/)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Horizon Light 256"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Horizon Terminal Light 256"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-horizon-terminal-light-256"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
