@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Rosé Pine - Gnome Terminal color scheme install script
-# Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+# Emilia Dunfelt &lt;edun@dunfelt.se&gt;
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Rosé Pine"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-rose-pine"
@@ -62,7 +62,7 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # Update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#191724', '#e2e1e7', '#ebbcba', '#f6c177', '#9ccfd8', '#c4a7e7', '#31748f', '#e0def4', '#555169', '#eb6f92', '#1f1d2e', '#26233a', '#6e6a86', '#f0f0f3', '#e5e5e5', '#c5c3ce']"
+        dset palette "['#191724', '#eb6f92', '#31748f', '#ebbcba', '#c4a7e7', '#f6c177', '#9ccfd8', '#e0def4', '#6e6a86', '#f6c177', '#1f1d2e', '#26233a', '#908caa', '#e0def4', '#524f67', '#524f67']"
         dset background-color "'#191724'"
         dset foreground-color "'#e0def4'"
         dset bold-color "'#e0def4'"
@@ -115,8 +115,8 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#191724:#e2e1e7:#ebbcba:#f6c177:#9ccfd8:#c4a7e7:#31748f:#e0def4:#555169:#e2e1e7:#ebbcba:#f6c177:#9ccfd8:#c4a7e7:#31748f:#c5c3ce"
-gset string palette "['#191724', '#e2e1e7', '#ebbcba', '#f6c177', '#9ccfd8', '#c4a7e7', '#31748f', '#e0def4', '#555169', '#eb6f92', '#1f1d2e', '#26233a', '#6e6a86', '#f0f0f3', '#e5e5e5', '#c5c3ce']"
+gset string palette "#191724:#eb6f92:#31748f:#ebbcba:#c4a7e7:#f6c177:#9ccfd8:#e0def4:#6e6a86:#eb6f92:#31748f:#ebbcba:#c4a7e7:#f6c177:#9ccfd8:#524f67"
+gset string palette "['#191724', '#eb6f92', '#31748f', '#ebbcba', '#c4a7e7', '#f6c177', '#9ccfd8', '#e0def4', '#6e6a86', '#f6c177', '#1f1d2e', '#26233a', '#908caa', '#e0def4', '#524f67', '#524f67']"
 gset string background_color "#191724"
 gset string foreground_color "#e0def4"
 gset string bold_color "#e0def4"
